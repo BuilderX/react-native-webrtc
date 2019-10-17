@@ -1,9 +1,7 @@
 'use strict';
 
 export default class RTCIceCandidate {
-  candidate: string;
-  sdpMLineIndex: number;
-  sdpMid: string;
+
 
   constructor(info) {
     this.candidate = info.candidate;
